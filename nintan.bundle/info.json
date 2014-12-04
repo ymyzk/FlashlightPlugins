@@ -4,5 +4,6 @@
     "displayName_ja": "ないんたん",
     "description": "Ninetan's forecasting system",
     "description_ja": "ないんたん天気予報",
-    "examples": ["sx9 kyoto", "ninetan osaka"]
+    "examples": ["sx9 kyoto", "ninetan osaka"],
+    "categories": ["Weather"]
 }
