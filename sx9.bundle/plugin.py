@@ -1,8 +1,5 @@
 # -*- coding: utf-8 -*-
 
-import os
-
-
 locations = {
     'chiba': 'chiba',
     'hyogo': 'hyogo',
@@ -39,9 +36,10 @@ def results(parsed, original_query):
         </script>
         """
         return {
-            "title": "Ninetan '{0}' (Press Enter)".format(location),
+            "title": "Ninetan '{0}'".format(location),
             "run_args": [url],
-            "html": html
+            "html": html,
+            "webview_links_open_in_browser": True
         }
     else:
         return {
@@ -51,4 +49,5 @@ def results(parsed, original_query):
 
 def run(url):
     if url is not None:
+        import os
         os.system("open {0}".format(url))
