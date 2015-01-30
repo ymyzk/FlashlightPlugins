@@ -1,3 +1,0 @@
-sx9 ~location(kyoto)
-ninetan ~location(osaka)
-ないんたん ~location(京都)
